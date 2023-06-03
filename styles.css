@@ -1,0 +1,606 @@
+html, body {
+    min-height:100%;
+    background: #AEAEAE;
+}
+.home{
+
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Yaldevi Colombo ExtraLight';
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+  color: #5C715E;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	color: #5C715E;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+.container {
+position: absolute;
+ width: 1121px;
+ left: 160px;
+ top: 250px;
+ color: white;
+
+}
+.centered {
+ position: absolute;
+
+ height: 179px;
+ left: 120px;
+ top: 470px;
+
+ font-family: 'Urbanist';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 128px;
+ line-height: 180px;
+ text-align: center;
+ letter-spacing: 20px;
+
+ color: #5C715E;
+}
+.text-block {
+ position: absolute;
+ width: 1135px;
+ height: 230px;
+ left: 72px;
+ top: 460px;
+
+ background: #F2F9F1;
+}
+.container .btn {
+position: absolute;
+width: 393px;
+height: 66px;
+left: 210px;
+top: 18px;
+background: #F2F9F1;
+font-family: 'Yaldevi Colombo ExtraLight';
+font-style: normal;
+font-weight: 275;
+font-size: 50px;
+line-height: 66px;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #5C715E;
+}
+.about{
+background: #AEAEAE;
+}
+.about-img{
+  position: absolute;
+width: 509px;
+height: 640px;
+left: 115px;
+top: 1055px;
+}
+.mission{
+ position: absolute;
+ width: 558px;
+ height: 70px;
+ left: 772px;
+ top: 1076px;
+
+ font-family: 'Urbanist';
+ font-style: normal;
+ font-weight: 100;
+ font-size: 70px;
+ line-height: 100.7%;
+ /* or 70px */
+
+ letter-spacing: 0.2em;
+ color: #5C715E;
+
+}
+.mp{
+position: absolute;
+
+left: 668px;
+top: 1248px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 100.7%;
+/* or 30px */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+#cta{
+
+ color: white;
+ padding: 600px 20px 100px 10px;
+ text-align: right;
+ margin-left: 607px;
+}
+.cta-class{
+box-sizing: border-box;
+
+position: absolute;
+left: 50.21%;
+right: 15.21%;
+top: 17.81%;
+bottom: 17.81%;
+
+
+}
+.btnn{
+ padding-right: 100px;
+ padding-left: 100px;
+ background: #FFFFFF;
+border: 1px solid #5C715E;
+}
+
+.plant{
+background: #AEAEAE;
+margin-top: 50px;
+}
+.plant-head{
+  position: absolute;
+  width: 660px;
+  height: 84px;
+  left: 328px;
+  top: 1824px;
+
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 84px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 5.3px;
+
+  color: #5C715E;
+}
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+ :root {
+	 --d: 700ms;
+	 --e: cubic-bezier(0.19, 1, 0.22, 1);
+	 --font-sans: 'Rubik', sans-serif;
+	 --font-serif: 'Cardo', serif;
+}
+ * {
+	 box-sizing: border-box;
+}
+
+
+ .page-content {
+	 display: grid;
+	 grid-gap: 3rem;
+	 padding: 1rem;
+	 max-width: 2048px;
+	 margin: 0 auto 50 auto;
+	 padding-left:260px;
+   padding-top: 260px;
+	 font-family: var(--font-sans);
+}
+ @media (min-width: 800px) {
+	 .page-content {
+		 grid-template-columns: repeat(2, 1fr);
+	}
+}
+ @media (min-width: 800px) {
+	 .page-content {
+		 grid-template-columns: repeat(4, 1fr);
+	}
+}
+ .card {
+	 position: relative;
+	 display: flex;
+	 align-items: flex-end;
+	 overflow: hidden;
+	 padding: 1rem;
+	 width: 100%;
+	 text-align: center;
+	 color: whitesmoke;
+	 background-color: whitesmoke;
+	 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+ @media (min-width: 600px) {
+	 .card {
+		 height: 350px;
+	}
+}
+ .card:before {
+	 content: '';
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 110%;
+	 background-size: cover;
+	 background-position: 0 0;
+	 transition: transform calc(var(--d) * 1.5) var(--e);
+	 pointer-events: none;
+}
+ .card:after {
+	 content: '';
+	 display: block;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 200%;
+	 pointer-events: none;
+	 background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.320) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.540) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.790) 100%);
+	 transform: translateY(-50%);
+	 transition: transform calc(var(--d) * 2) var(--e);
+}
+ .card:nth-child(1):before {
+	 background: url(images/tree.jpeg);
+}
+ .card:nth-child(2):before {
+	 background-image: url(images/herb.jpeg);
+}
+ .card:nth-child(3):before {
+	 background-image: url(images/flower.jpeg);
+}
+ .content {
+	 position: relative;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 width: 100%;
+	 padding: 1rem;
+	 transition: transform var(--d) var(--e);
+	 z-index: 1;
+}
+ .content > * + * {
+	 margin-top: 1rem;
+}
+ .title {
+	 font-size: 1.3rem;
+	 font-weight: bold;
+	 line-height: 1.2;
+   color: white;
+}
+ .copy {
+	 font-family: var(--font-serif);
+	 font-size: 1.125rem;
+	 font-style: italic;
+	 line-height: 1.35;
+}
+ .btn {
+	 cursor: pointer;
+	 margin-top: 1.5rem;
+	 padding: 0.75rem 1.5rem;
+	 font-size: 0.65rem;
+	 font-weight: bold;
+	 letter-spacing: 0.025rem;
+	 text-transform: uppercase;
+	 color: white;
+	 background-color: black;
+	 border: none;
+}
+ .btn:hover {
+	 background-color: #0d0d0d;
+}
+ .btn:focus {
+	 outline: 1px dashed yellow;
+	 outline-offset: 3px;
+}
+ @media (hover: hover) and (min-width: 600px) {
+	 .card:after {
+		 transform: translateY(0);
+	}
+	 .content {
+		 transform: translateY(calc(100% - 4.5rem));
+	}
+	 .content > *:not(.title) {
+		 opacity: 0;
+		 transform: translateY(1rem);
+		 transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+	}
+	 .card:hover, .card:focus-within {
+		 align-items: center;
+	}
+	 .card:hover:before, .card:focus-within:before {
+		 transform: translateY(-4%);
+	}
+	 .card:hover:after, .card:focus-within:after {
+		 transform: translateY(-50%);
+	}
+	 .card:hover .content, .card:focus-within .content {
+		 transform: translateY(0);
+	}
+	 .card:hover .content > *:not(.title), .card:focus-within .content > *:not(.title) {
+		 opacity: 1;
+		 transform: translateY(0);
+		 transition-delay: calc(var(--d) / 8);
+	}
+	 .card:focus-within:before, .card:focus-within:after, .card:focus-within .content, .card:focus-within .content > *:not(.title) {
+		 transition-duration: 0s;
+	}
+}
+
+.project{
+background: #AEAEAE;
+
+}
+.PROJECT-HEAD{
+width: 1242px;
+height: 58px;
+
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 5.3px;
+
+color: #5C715E;
+}
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btnnn {
+  color: black;
+  padding: .5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 99px;
+  font-weight: 400;
+  display: block;
+  posision: absolute;
+  margin-left: 150px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: green;
+}
+
+.btnnn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_itemm {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_itemm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_itemm {
+    width: 33.3333%;
+  }
+}
+
+.cardd {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_contentt {
+  padding: 1rem;
+
+}
+
+.card_titlee {
+  color: black;
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: center;
+}
+
+.card_textt {
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  text-align:center;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color:#5C715E;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form_class {
+    width: 530px;
+    padding: 20px 80px;
+    border-radius: 8px;
+    margin-left: 340px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+.form_div {
+    text-transform: uppercase;
+}
+.form_div > label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+.info_div {
+    text-align: center;
+    margin-top: 20px;
+}
+.info_div {
+    letter-spacing: 1px;
+}
+.field_class {
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FFE6D4;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
