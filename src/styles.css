@@ -1,0 +1,250 @@
+html, body {
+  min-height:100%;
+}
+.home{
+
+}
+
+* {
+box-sizing: border-box;
+}
+body {
+font-family: 'Yaldevi Colombo ExtraLight';
+line-height: 1.6;
+margin: 0;
+min-height: 100vh;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+
+h2,
+h3,
+a {
+color: #34495e;
+}
+
+a {
+text-decoration: none;
+}
+
+
+
+.logo {
+margin: 0;
+font-size: 1.45em;
+color: #5C715E;
+}
+
+.main-nav {
+margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+padding: 10px 15px;
+text-transform: uppercase;
+text-align: center;
+display: block;
+}
+
+.main-nav a {
+color: #34495e;
+font-size: .99em;
+}
+
+.main-nav a:hover {
+color: #718daa;
+}
+
+
+
+.header {
+padding-top: .5em;
+padding-bottom: .5em;
+border: 1px solid #a2a2a2;
+background-color: #f4f4f4;
+-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+@media (min-width: 769px) {
+.header,
+.main-nav {
+  display: flex;
+color: #5C715E;
+}
+.header {
+  flex-direction: column;
+  align-items: center;
+    .header{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+}
+
+}
+
+@media (min-width: 1025px) {
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+}
+
+.container {
+position: absolute;
+width: 1121px;
+left: 160px;
+top: 250px;
+color: white;
+
+}
+.centered {
+position: absolute;
+
+height: 179px;
+left: 120px;
+top: 470px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 128px;
+line-height: 180px;
+text-align: center;
+letter-spacing: 20px;
+
+color: #5C715E;
+}
+.text-block {
+position: absolute;
+width: 1135px;
+height: 230px;
+left: 72px;
+top: 460px;
+
+background: #F2F9F1;
+}
+.container .btn {
+position: absolute;
+width: 393px;
+height: 66px;
+left: 210px;
+top: 18px;
+background: #F2F9F1;
+font-family: 'Yaldevi Colombo ExtraLight';
+font-style: normal;
+font-weight: 275;
+font-size: 50px;
+line-height: 66px;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #5C715E;
+}
+.about{
+background: #AEAEAE;
+}
+.about-img{
+position: absolute;
+width: 509px;
+height: 640px;
+left: 115px;
+top: 1425px;
+}
+.mission{
+position: absolute;
+width: 558px;
+height: 70px;
+left: 772px;
+top: 1416px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 100;
+font-size: 70px;
+line-height: 100.7%;
+/* or 70px */
+
+letter-spacing: 0.2em;
+color: #5C715E;
+
+}
+p{
+position: absolute;
+
+left: 668px;
+top: 1624px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 100.7%;
+/* or 30px */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+#cta{
+
+color: white;
+padding: 600px 20px 100px 10px;
+text-align: right;
+margin-left: 607px;
+}
+.cta-class{
+box-sizing: border-box;
+
+position: absolute;
+left: 50.21%;
+right: 15.21%;
+top: 17.81%;
+bottom: 17.81%;
+
+
+}
+.btn{
+padding-right: 100px;
+padding-left: 100px;
+background: #FFFFFF;
+border: 1px solid #5C715E;
+}
+
+.plant{
+background: #AEAEAE;
+}
+.plant-head{
+position: absolute;
+width: 737px;
+height: 84px;
+left: 352px;
+top: 2123px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 100;
+font-size: 70px;
+line-height: 84px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 5.3px;
+
+color: #5C715E;
+}
+
+.project{
+background: #AEAEAE;
+}
